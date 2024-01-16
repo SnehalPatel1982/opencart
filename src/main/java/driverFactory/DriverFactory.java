@@ -12,6 +12,8 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverFactory {
     public static WebDriver driver;
+
+    // This is page factory class
     public static ThreadLocal<WebDriver> tslocal = new ThreadLocal<>();
 
     public WebDriver init_browser(String browser) {
